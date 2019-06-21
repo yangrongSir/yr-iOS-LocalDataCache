@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YRMainController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    YRMainController *controller = [[YRMainController alloc] init];
+    UINavigationController *navi = [[UINavigationController alloc] initWithRootViewController:controller];
+    self.window.rootViewController= navi;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyWindow];
     return YES;
 }
 

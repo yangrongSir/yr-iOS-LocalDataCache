@@ -8,24 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		51471F7A22BCBE9200F3039A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51471F7922BCBE9200F3039A /* AppDelegate.m */; };
-		51471F7D22BCBE9200F3039A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51471F7C22BCBE9200F3039A /* ViewController.m */; };
 		51471F8022BCBE9200F3039A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51471F7E22BCBE9200F3039A /* Main.storyboard */; };
 		51471F8222BCBE9300F3039A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51471F8122BCBE9300F3039A /* Assets.xcassets */; };
 		51471F8522BCBE9300F3039A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51471F8322BCBE9300F3039A /* LaunchScreen.storyboard */; };
 		51471F8822BCBE9300F3039A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51471F8722BCBE9300F3039A /* main.m */; };
+		51471F9D22BCBF6A00F3039A /* YRNSUserDefaultController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51471F8F22BCBF6A00F3039A /* YRNSUserDefaultController.m */; };
+		51471F9E22BCBF6A00F3039A /* YRCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51471F9322BCBF6A00F3039A /* YRCoreDataController.m */; };
+		51471F9F22BCBF6A00F3039A /* YRPlistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51471F9522BCBF6A00F3039A /* YRPlistController.m */; };
+		51471FA022BCBF6A00F3039A /* YRNSCodingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51471F9822BCBF6A00F3039A /* YRNSCodingController.m */; };
+		51471FA122BCBF6A00F3039A /* YRNSHomeDictionaryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51471F9C22BCBF6A00F3039A /* YRNSHomeDictionaryController.m */; };
+		51471FA422BCBF7800F3039A /* YRMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51471FA322BCBF7800F3039A /* YRMainController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51471F7522BCBE9200F3039A /* YR-LocalDataCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YR-LocalDataCache.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51471F7822BCBE9200F3039A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		51471F7922BCBE9200F3039A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		51471F7B22BCBE9200F3039A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		51471F7C22BCBE9200F3039A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		51471F7F22BCBE9200F3039A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51471F8122BCBE9300F3039A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51471F8422BCBE9300F3039A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51471F8622BCBE9300F3039A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51471F8722BCBE9300F3039A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51471F8F22BCBF6A00F3039A /* YRNSUserDefaultController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNSUserDefaultController.m; sourceTree = "<group>"; };
+		51471F9022BCBF6A00F3039A /* YRNSUserDefaultController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNSUserDefaultController.h; sourceTree = "<group>"; };
+		51471F9222BCBF6A00F3039A /* YRCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRCoreDataController.h; sourceTree = "<group>"; };
+		51471F9322BCBF6A00F3039A /* YRCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRCoreDataController.m; sourceTree = "<group>"; };
+		51471F9522BCBF6A00F3039A /* YRPlistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRPlistController.m; sourceTree = "<group>"; };
+		51471F9622BCBF6A00F3039A /* YRPlistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRPlistController.h; sourceTree = "<group>"; };
+		51471F9822BCBF6A00F3039A /* YRNSCodingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNSCodingController.m; sourceTree = "<group>"; };
+		51471F9922BCBF6A00F3039A /* YRNSCodingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNSCodingController.h; sourceTree = "<group>"; };
+		51471F9B22BCBF6A00F3039A /* YRNSHomeDictionaryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNSHomeDictionaryController.h; sourceTree = "<group>"; };
+		51471F9C22BCBF6A00F3039A /* YRNSHomeDictionaryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNSHomeDictionaryController.m; sourceTree = "<group>"; };
+		51471FA222BCBF7800F3039A /* YRMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRMainController.h; sourceTree = "<group>"; };
+		51471FA322BCBF7800F3039A /* YRMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRMainController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +73,15 @@
 		51471F7722BCBE9200F3039A /* YR-LocalDataCache */ = {
 			isa = PBXGroup;
 			children = (
+				51471F9722BCBF6A00F3039A /* 解归档 */,
+				51471F9A22BCBF6A00F3039A /* 手动存放沙盒 */,
+				51471F9122BCBF6A00F3039A /* CoreData */,
+				51471F8E22BCBF6A00F3039A /* NSUserDefault */,
+				51471F9422BCBF6A00F3039A /* plist文件 */,
 				51471F7822BCBE9200F3039A /* AppDelegate.h */,
 				51471F7922BCBE9200F3039A /* AppDelegate.m */,
-				51471F7B22BCBE9200F3039A /* ViewController.h */,
-				51471F7C22BCBE9200F3039A /* ViewController.m */,
+				51471FA222BCBF7800F3039A /* YRMainController.h */,
+				51471FA322BCBF7800F3039A /* YRMainController.m */,
 				51471F7E22BCBE9200F3039A /* Main.storyboard */,
 				51471F8122BCBE9300F3039A /* Assets.xcassets */,
 				51471F8322BCBE9300F3039A /* LaunchScreen.storyboard */,
@@ -69,6 +89,51 @@
 				51471F8722BCBE9300F3039A /* main.m */,
 			);
 			path = "YR-LocalDataCache";
+			sourceTree = "<group>";
+		};
+		51471F8E22BCBF6A00F3039A /* NSUserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				51471F8F22BCBF6A00F3039A /* YRNSUserDefaultController.m */,
+				51471F9022BCBF6A00F3039A /* YRNSUserDefaultController.h */,
+			);
+			path = NSUserDefault;
+			sourceTree = "<group>";
+		};
+		51471F9122BCBF6A00F3039A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				51471F9222BCBF6A00F3039A /* YRCoreDataController.h */,
+				51471F9322BCBF6A00F3039A /* YRCoreDataController.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		51471F9422BCBF6A00F3039A /* plist文件 */ = {
+			isa = PBXGroup;
+			children = (
+				51471F9522BCBF6A00F3039A /* YRPlistController.m */,
+				51471F9622BCBF6A00F3039A /* YRPlistController.h */,
+			);
+			path = "plist文件";
+			sourceTree = "<group>";
+		};
+		51471F9722BCBF6A00F3039A /* 解归档 */ = {
+			isa = PBXGroup;
+			children = (
+				51471F9822BCBF6A00F3039A /* YRNSCodingController.m */,
+				51471F9922BCBF6A00F3039A /* YRNSCodingController.h */,
+			);
+			path = "解归档";
+			sourceTree = "<group>";
+		};
+		51471F9A22BCBF6A00F3039A /* 手动存放沙盒 */ = {
+			isa = PBXGroup;
+			children = (
+				51471F9B22BCBF6A00F3039A /* YRNSHomeDictionaryController.h */,
+				51471F9C22BCBF6A00F3039A /* YRNSHomeDictionaryController.m */,
+			);
+			path = "手动存放沙盒";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51471F7D22BCBE9200F3039A /* ViewController.m in Sources */,
+				51471FA122BCBF6A00F3039A /* YRNSHomeDictionaryController.m in Sources */,
+				51471FA422BCBF7800F3039A /* YRMainController.m in Sources */,
 				51471F8822BCBE9300F3039A /* main.m in Sources */,
+				51471F9D22BCBF6A00F3039A /* YRNSUserDefaultController.m in Sources */,
+				51471F9F22BCBF6A00F3039A /* YRPlistController.m in Sources */,
+				51471FA022BCBF6A00F3039A /* YRNSCodingController.m in Sources */,
+				51471F9E22BCBF6A00F3039A /* YRCoreDataController.m in Sources */,
 				51471F7A22BCBE9200F3039A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
